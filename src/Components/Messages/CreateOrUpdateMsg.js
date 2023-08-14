@@ -27,7 +27,7 @@ function CreateOrUpdateMsg({ message }) {
           </div>
         </div>
       </div>
-      <p className="linkURL">URL :npm start{message.url}</p>
+      <p className="linkURL">URL :{message.url}</p>
     </div>
   );
 }
