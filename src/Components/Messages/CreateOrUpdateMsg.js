@@ -27,7 +27,9 @@ function CreateOrUpdateMsg({ message }) {
           </div>
         </div>
       </div>
+      <div className="messageDiv" role="alert">
       <p className="linkURL">URL :{message.url}</p>
+      </div>
     </div>
   );
 }
